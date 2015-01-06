@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jobli</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="title_activity_new_job">פרסום משרה חדשה</string>
+    <string name="title_activity_map_picker">בחירת מיקום</string>
+    <string name="title_activity_base_login">התחברות</string>
+    <string name="app_connection_erro_msg">An error occurred while trying to contact the server. Please try again.</string>
+
+</resources>

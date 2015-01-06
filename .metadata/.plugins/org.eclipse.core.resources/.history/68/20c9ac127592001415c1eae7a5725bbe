@@ -1,0 +1,27 @@
+package com.R.L.A.jobli;
+
+import android.app.Fragment;
+import android.os.Bundle;
+
+public class CreateJobFragment extends Fragment {
+	public static Long defJobID = -1L;
+
+	public static CreateJobFragment newInstance(Long id) {
+		if (id == null) {
+			id = defJobID;
+		}
+		CreateJobFragment fragment = new CreateJobFragment();
+		Bundle args = new Bundle();
+		args.putLong("id", id);
+		fragment.setArguments(args);
+		return fragment;
+	}
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		if (getArguments() != null) {
+			setHasOptionsMenu(true);
+		}
+	}
+}

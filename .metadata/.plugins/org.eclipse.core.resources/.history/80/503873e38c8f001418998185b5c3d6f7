@@ -1,0 +1,12 @@
+package com.R.L.A.jobli;
+
+import android.app.Fragment;
+
+public class CreateJobFragment extends Fragment {
+
+	public static CreateJobFragment newInstance(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

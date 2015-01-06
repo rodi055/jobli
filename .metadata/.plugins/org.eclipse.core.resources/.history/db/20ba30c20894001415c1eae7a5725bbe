@@ -1,0 +1,6 @@
+package il.ac.technion.logic.Objects;
+
+public interface IdiableObj {
+	public Long getId();
+	public void setId(Long id);
+}

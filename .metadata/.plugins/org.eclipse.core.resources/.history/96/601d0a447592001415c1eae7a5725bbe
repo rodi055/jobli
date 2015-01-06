@@ -1,0 +1,40 @@
+package com.R.L.A.jobli;
+
+import android.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+
+public class CreateJobFragment extends Fragment {
+	public static Long defJobID = -1L;
+
+	public static CreateJobFragment newInstance(Long id) {
+		if (id == null) {
+			id = defJobID;
+		}
+		CreateJobFragment fragment = new CreateJobFragment();
+		Bundle args = new Bundle();
+		args.putLong("id", id);
+		fragment.setArguments(args);
+		return fragment;
+	}
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		if (getArguments() != null) {
+			setHasOptionsMenu(true);
+		}
+	}
+	
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		View v = inflater.inflate(R.layout.fragment_create_job, container, false);
+		
+	//	getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+		return v;
+	}
+}

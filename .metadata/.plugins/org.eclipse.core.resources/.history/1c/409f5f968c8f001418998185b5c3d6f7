@@ -1,0 +1,7 @@
+package com.R.L.A.jobli;
+
+import Fragment;
+
+public class CreateJobFragment extends Fragment {
+
+}

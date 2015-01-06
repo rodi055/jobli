@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/maimMap"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/addJobBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/anonymousUser"
+        android:layout_marginLeft="11dp"
+        android:background="@android:color/transparent"
+        android:layout_toRightOf="@+id/anonymousUser"
+        android:src="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/anonymousUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_anonymous_user" />
+
+</RelativeLayout>

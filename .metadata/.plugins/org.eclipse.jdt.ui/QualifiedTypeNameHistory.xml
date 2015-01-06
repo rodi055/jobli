@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.GoogleMap"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.SupportMapFragment"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.MapFragment"/>
+<fullyQualifiedTypeName name="android.location.Location"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.model.CameraPosition"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.CameraUpdateFactory"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.R.L.A.jobli.MainActivity"/>
+<fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="android.app.Application"/>
+<fullyQualifiedTypeName name="com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks"/>
+<fullyQualifiedTypeName name="com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener"/>
+<fullyQualifiedTypeName name="com.google.android.gms.common.api.GoogleApiClient"/>
+<fullyQualifiedTypeName name="com.google.android.gms.location.LocationServices"/>
+<fullyQualifiedTypeName name="com.R.L.A.jobli.LocationFactory"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.model.Marker"/>
+<fullyQualifiedTypeName name="com.R.L.A.jobli.JobliApplication"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.model.LatLng"/>
+<fullyQualifiedTypeName name="com.google.android.gms.maps.model.MarkerOptions"/>
+<fullyQualifiedTypeName name="android.widget.ImageButton"/>
+<fullyQualifiedTypeName name="com.R.L.A.jobli.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.support.v4.app.FragmentActivity"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.R.L.A.jobli.R.layout"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.app.Fragment"/>
+</qualifiedTypeNameHistroy>
